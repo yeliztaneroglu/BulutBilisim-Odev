@@ -1,0 +1,40 @@
+
+.baslik{
+	margin-left:15px;
+	height:185px;
+	background-color:red; box-shadow: 0px 0px 20px 10px black;
+}
+.ortaDiv{	 
+	 /*border:1px solid blue;*/
+	 height:300;
+	 width:500;
+	 position:absolute;
+	 left:50%;
+	 top:50%;
+	 margin-left: -250px;
+	 margin-top: -150px;
+}
+.formDiv{
+	 /*border:1px solid red;*/
+	 position:absolute;
+	 margin-left: 30px;
+	 margin-top: 130px;
+	 margin-top: 50px;
+}
+.selam{
+	margin-left:50px;
+	margin-right:50px;
+	margin-top: 0px;
+}
+.obs{
+	margin-left:900px;
+	margin-top:50px;
+}
+.logo{
+	 margin-right:40px;
+}
+.butonlar{
+	margin-left:20px;
+	margin-top:40px;
+}
+
