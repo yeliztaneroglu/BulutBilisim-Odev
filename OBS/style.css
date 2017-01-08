@@ -1,18 +1,80 @@
 
 .baslik{
-	margin-left:15px;
-	height:185px;
-	background-color:red; box-shadow: 0px 0px 20px 10px black;
+	
+	border:2px solid #E6E6E6;
+	margin-left:12px;
+	height:24%;
+	width: 98.2%;
+	background-color:red;
+	box-shadow: 0px 0px 20px 10px black;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.derssecim{
+	border: 3px solid white;
+	position:relative;
+	margin-left: 15%;
+	margin-top: 7%;
+	width:70%;
+	height:50%;
+	}
+.ogrenciBilgi{
+	padding-bottom:5px;
 }
 .ortaDiv{	 
+	margin-left:0%;
+	width:100%;
+	
+}
+.ust{
+	margin-left:0%;
+	width:100%;
+	color: white;
+    border-bottom: 1px solid white;
+}
+.ustunalti{
+	
+margin-left:0px;
+	width:100%;
+	color: white;
+	
+}
+.comu{
+	color:#f0f8ff;
+}
+.adisoyadi{
+	background-color: #cd2626;
+}
+.bolumadi{
+	background-color: #ee2c2c;
+}
+.danisman{
+	background-color: #ff3030;
+}
+.sectigimkredi{
+	background-color: #cd2626;
+}
+.toplamkredi{
+	background-color: #ee2c2c;
+}
+.bisey{
+	background-color: #ff3030;
+}
+
+.indexOrtaDiv{	 
 	 /*border:1px solid blue;*/
-	 height:300;
-	 width:500;
+	 height:70%;
+	 width:25%;
 	 position:absolute;
-	 left:50%;
-	 top:50%;
-	 margin-left: -250px;
-	 margin-top: -150px;
+	 margin-left: 35%;
+	 margin-top: 7%;
+}
+tr.asd td{
+	text-decoration:underline;
 }
 .formDiv{
 	 /*border:1px solid red;*/
@@ -21,17 +83,47 @@
 	 margin-top: 130px;
 	 margin-top: 50px;
 }
-.selam{
-	margin-left:50px;
-	margin-right:50px;
-	margin-top: 0px;
-}
 .obs{
-	margin-left:900px;
-	margin-top:50px;
+	margin-left:80%;
+	margin-top:5%;
+}
+.col{
+	float:left;
+	width:100%;
+}
+
+.col2{
+	float:left;
+	margin-left:0%;
+	position:absolute;
+	top:-3px;
+	left: 75%;
+}
+.selam{
+	/*border:5px solid black;*/
+	margin-left:30px;
+	margin-right:50px;
+	margin-top: -5px;
+	height: 270px;
+}
+.checkk{
+	width:50px!important;
+	height:50px!important;
+}
+.navbarObs{
+	position:relative;
+	margin-top:3%;
+}
+.navbarDiv{
+	width:33%;
+}
+.clear{
+	clear: both;
 }
 .logo{
 	 margin-right:40px;
+	  height:120px;
+	  width:120px;
 }
 .butonlar{
 	margin-left:20px;
